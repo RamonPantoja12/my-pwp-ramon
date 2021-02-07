@@ -5,9 +5,14 @@ body {
     overflow-x: hidden;
 }
 
+
 .navbar-dark .navbar-brand {
     color: White;
     font-size: 30px;
+}
+
+.nav-item{
+    text-align: center;
 }
 
 .navbar-dark .navbar-toggler {
@@ -40,7 +45,6 @@ body {
 
 /*Welcome Homepage*/
 
-
 .heading-content {
     position: absolute;
     top: 40%;
@@ -54,6 +58,7 @@ body {
     font-size: 5em;
     font-weight: bolder;
     color: white;
+
 }
 
 .heading-content p{
@@ -64,3 +69,5 @@ body {
     word-spacing: 5px;
     letter-spacing: 2px;
 }
+
+/*PORTFOLIO SECTION*/
