@@ -11,6 +11,10 @@ body {
     font-size: 30px;
 }
 
+.navbar-brand {
+    animation: bounce;
+}
+
 .nav-item{
     text-align: center;
 }
@@ -58,7 +62,6 @@ body {
     font-size: 5em;
     font-weight: bolder;
     color: white;
-
 }
 
 .heading-content p{
@@ -71,3 +74,7 @@ body {
 }
 
 /*PORTFOLIO SECTION*/
+
+.portfoliobg {
+    background-color: #1F2935;
+}
