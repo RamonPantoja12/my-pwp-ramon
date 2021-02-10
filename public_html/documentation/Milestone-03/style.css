@@ -75,6 +75,11 @@ body {
 
 /*PORTFOLIO SECTION*/
 
-.portfoliobg {
-    background-color: #1F2935;
+
+
+/*FOOTER SECTION*/
+.page-footer {
+    background-color: #263238;
+    color: White;
+    font-size: 30px;
 }
