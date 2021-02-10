@@ -74,7 +74,9 @@ body {
 }
 
 /*PORTFOLIO SECTION*/
-
+.form-group {
+    border: #263238;
+}
 
 
 /*FOOTER SECTION*/
