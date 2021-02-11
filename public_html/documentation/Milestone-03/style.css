@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
 }
 
-
+/*NAVBAR SECTION START*/
 .navbar-dark .navbar-brand {
     color: White;
     font-size: 30px;
@@ -46,6 +46,7 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover{
     color: aquamarine;
 }
+/*NAVBAR SECTION END*/
 
 /*Welcome Homepage START TEST*/
 
@@ -95,23 +96,43 @@ h1 {
 
 /*Welcome Homepage END TEST*/
 
-
-
-/*PORTFOLIO SECTION*/
-.form-group {
-    border: #263238;
+/*ABOUT SECTION START*/
+#about {
+    position: relative;
+    margin-bottom: 10em;
+    margin-top: -5em;
 }
 
+#cards {
+    margin-bottom: 15em;
+    background-image: linear-gradient(to right, rgba(0, 0,0, 0), rgba(0, 0,0, 0)), url("coding.jpg");
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
 
-/*FOOTER SECTION*/
+/*ABOUT SECTION END*/
+
+
+/*PORTFOLIO SECTION START!!*/
+
+/*PORTFOLIO SECTION END!!*/
+
+
+/*CONTACT ME SECTION START!!*/
+/*CONTACT ME SECTION END!!*/
+
+
+/*FOOTER SECTION START!!*/
 .page-footer {
-    background-color: #263238;
+    background-color: #334157;
     color: White;
     font-size: 30px;
 }
+/*FOOTER SECTION END!!*/
 
-#about {
-    position: relative;
-    margin-bottom: 5em;
-    margin-top: -5em;
-}
+
+
