@@ -51,7 +51,7 @@ body {
 /*Welcome Homepage START TEST*/
 
 #home {
-    background-image: linear-gradient(to right, rgba(0, 0,0, 0), rgba(0, 0,0, 0)), url("coding.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0,0, 0), rgba(0, 0,0, 0)), url("../documentation/Milestone-03/coding.jpg");
     padding-bottom: 20em;
     position: relative;
     background-position: center center;
@@ -105,7 +105,7 @@ h1 {
 
 #cards {
     margin-bottom: 15em;
-    background-image: linear-gradient(to right, rgba(0, 0,0, 0), rgba(0, 0,0, 0)), url("coding.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0,0, 0), rgba(0, 0,0, 0)), url("../documentation/Milestone-03/coding.jpg");
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
