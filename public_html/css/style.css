@@ -104,7 +104,7 @@ h1 {
 }
 
 #cards {
-    margin-bottom: 15em;
+    margin-bottom: 5em;
     background-image: linear-gradient(to right, rgba(0, 0,0, 0), rgba(0, 0,0, 0)), url("../documentation/Milestone-03/coding.jpg");
     position: relative;
     background-position: center center;
@@ -112,6 +112,10 @@ h1 {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
+}
+
+.aboutMe {
+    font-size: 23px;
 }
 
 /*ABOUT SECTION END*/
