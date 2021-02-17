@@ -112,7 +112,6 @@ h3 {
 hr.one {
     border-top: 2px solid;
     color: white;
-    width: 30em;
 }
 /*Welcome Homepage END TEST*/
 
@@ -157,13 +156,22 @@ hr.four{
 }
 
 .p4 {
-    color: white;
+    /*option#1*/
+
+    color: black;
     font-size: 25px;
     font-weight: bold;
     font-style: italic;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    text-shadow: 2px 2px 0 #000000;
+
+    /*option #2*/
+
+    /*color: white;*/
+    /*font-size: 25px;*/
+    /*font-weight: bold;*/
+    /*font-style: italic;*/
+    /*-webkit-text-stroke-width: 1px;*/
+    /*-webkit-text-stroke-color: black;*/
+    /*text-shadow: 2px 2px 0 #000000;*/
 }
 
 #portfolio-background {
@@ -199,6 +207,8 @@ hr.five {
     border-top: 2px solid;
     color: black;
 }
+
+
 /*CONTACT ME SECTION END!!*/
 
 
