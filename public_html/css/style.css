@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -79,6 +81,16 @@ h1 {
     font-size: 4.4rem;
     margin-top: 3em;
     font-weight: 800;
+    text-shadow: 10px 10px 0 #000
+}
+
+h3 {
+    color: white;
+    font-size: 70px;
+    font-family: 'Secular One', sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 5px 5px 0 #000000;
 }
 
 
@@ -91,25 +103,69 @@ h1 {
 .main-home-content p {
     color: white;
     margin-bottom: 3em;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+hr.one {
+    border-top: 2px solid;
+    color: white;
+    width: 30em;
 }
 /*Welcome Homepage END TEST*/
 
 
 /*ABOUT SECTION START*/
+hr.two {
+    border-radius: 10px;
+    border-top: 2px solid;
+    color: black;
+}
+
+hr.three {
+    border-radius: 10px;
+    border-top: 2px solid;
+    color: gray;
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Secular One', sans-serif;
+}
+
 #about {
     position: relative;
-    margin-bottom: 10em;
-    margin-top: -5em;
+    margin-bottom: 8em;
+    margin-top: -8em;
 }
 
 .aboutMe {
-    font-size: 23px;
+    font-size: 27px;
 }
 /*ABOUT SECTION END*/
 
 
 /*PORTFOLIO SECTION START!!*/
+hr.four{
+    border-radius: 10px;
+    border-top: 2px solid;
+    color: black;
+}
+
+.p4 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 0 #000000;
+}
+
 #portfolio-background {
     background-image: linear-gradient(to right, rgba(0, 0,0, 0.60), rgba(0, 0,0, 0.80)), url("../documentation/Milestone-03/coding.jpg");
     position: relative;
@@ -138,6 +194,11 @@ h1 {
 
 
 /*CONTACT ME SECTION START!!*/
+hr.five {
+    border-radius: 10px;
+    border-top: 2px solid;
+    color: black;
+}
 /*CONTACT ME SECTION END!!*/
 
 
