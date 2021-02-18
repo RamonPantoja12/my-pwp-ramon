@@ -123,12 +123,6 @@ hr.two {
     color: black;
 }
 
-hr.three {
-    border-radius: 10px;
-    border-top: 2px solid;
-    color: gray;
-}
-
 h2 {
     color: black;
     font-weight: bold;
@@ -147,6 +141,36 @@ h2 {
 }
 /*ABOUT SECTION END*/
 
+/*SKILLS SECTION START*/
+hr.three {
+    border-radius: 10px;
+    border-top: 2px solid;
+    color: black;
+}
+
+.skills {
+    margin-top: 5em;
+
+}
+#skills-section {
+    margin-bottom: 8em;
+
+}
+
+.tools {
+    font-size: 10em;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.p4 {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+/*SKILLS SECTION END*/
+
 
 /*PORTFOLIO SECTION START!!*/
 hr.four{
@@ -155,7 +179,7 @@ hr.four{
     color: black;
 }
 
-.p4 {
+.p5 {
     /*option#1*/
 
     color: black;
@@ -214,7 +238,7 @@ hr.five {
 
 /*FOOTER SECTION START!!*/
 .page-footer {
-    background-color: #334157;
+    background-color: black;
     color: White;
     font-size: 30px;
 }
