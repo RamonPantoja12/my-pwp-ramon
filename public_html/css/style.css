@@ -195,11 +195,11 @@ hr.three {
     color: black;
 }
 
-.skills {
+#skills {
     margin-top: 10em;
 
 }
-#skills-section {
+.skills-section {
     margin-bottom: 8em;
 
 }
