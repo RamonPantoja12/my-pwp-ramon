@@ -7,7 +7,10 @@ body {
     overflow-x: hidden;
 }
 
-/*NAVBAR SECTION START*/
+/**********************/
+/* NAVBAR SECTION START*/
+/**********************/
+
 .navbar-dark .navbar-brand {
     color: White;
     font-size: 30px;
@@ -48,9 +51,10 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover{
     color: aquamarine;
 }
-/*NAVBAR SECTION END*/
 
-/*Welcome Homepage START TEST*/
+/**********************/
+/* HOMEPAGE SECTION START*/
+/**********************/
 
 #home {
     background-image: linear-gradient(to right, rgba(0, 0,0, 0), rgba(0, 0,0, 0)), url("../documentation/Milestone-03/coding.jpg");
@@ -113,10 +117,11 @@ hr.one {
     border-top: 2px solid;
     color: white;
 }
-/*Welcome Homepage END TEST*/
 
 
-/*ABOUT SECTION START*/
+/**********************/
+/* ABOUT ME SECTION START*/
+/**********************/
 hr.two {
     border-radius: 10px;
     border-top: 2px solid;
@@ -139,9 +144,51 @@ h2 {
 .aboutMe {
     font-size: 27px;
 }
-/*ABOUT SECTION END*/
 
-/*SKILLS SECTION START*/
+/**********************/
+/* PORTFOLIO SECTION START*/
+/**********************/
+hr.four{
+    border-radius: 10px;
+    border-top: 2px solid;
+    color: black;
+}
+
+.p5 {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+#portfolio-background {
+    background-image: linear-gradient(to right, rgba(0, 0,0, 0.60), rgba(0, 0,0, 0.80)), url("../documentation/Milestone-03/coding.jpg");
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+#cards {
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    transition: transform 250ms;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/**********************/
+/* SKILL SECTION START*/
+/**********************/
 hr.three {
     border-radius: 10px;
     border-top: 2px solid;
@@ -169,63 +216,10 @@ hr.three {
     font-weight: bold;
     font-style: italic;
 }
-/*SKILLS SECTION END*/
 
-
-/*PORTFOLIO SECTION START!!*/
-hr.four{
-    border-radius: 10px;
-    border-top: 2px solid;
-    color: black;
-}
-
-.p5 {
-    /*option#1*/
-
-    color: black;
-    font-size: 25px;
-    font-weight: bold;
-    font-style: italic;
-
-    /*option #2*/
-
-    /*color: white;*/
-    /*font-size: 25px;*/
-    /*font-weight: bold;*/
-    /*font-style: italic;*/
-    /*-webkit-text-stroke-width: 1px;*/
-    /*-webkit-text-stroke-color: black;*/
-    /*text-shadow: 2px 2px 0 #000000;*/
-}
-
-#portfolio-background {
-    background-image: linear-gradient(to right, rgba(0, 0,0, 0.60), rgba(0, 0,0, 0.80)), url("../documentation/Milestone-03/coding.jpg");
-    position: relative;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #464646;
-}
-#cards {
-    justify-content: center;
-    align-items: center;
-}
-
-.card {
-    transition: transform 250ms;
-    display: inline-block;
-    margin-top: 30px;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
-/*PORTFOLIO SECTION END!!*/
-
-
-/*CONTACT ME SECTION START!!*/
+/**********************/
+/* CONTACT SECTION START*/
+/**********************/
 hr.five {
     border-radius: 10px;
     border-top: 2px solid;
@@ -233,16 +227,21 @@ hr.five {
 }
 
 
-/*CONTACT ME SECTION END!!*/
-
-
-/*FOOTER SECTION START!!*/
+/**********************/
+/* FOOTER SECTION START*/
+/**********************/
 .page-footer {
     background-color: black;
     color: White;
     font-size: 30px;
 }
-/*FOOTER SECTION END!!*/
+
+.footer-tools {
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
