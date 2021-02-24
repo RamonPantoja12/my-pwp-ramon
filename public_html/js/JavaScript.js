@@ -1,9 +1,17 @@
-window.addEventListener("scroll", function (){
-    let  menuArea = document.getElementById('navbar');
+// add padding top to show content behind navbar
+$('body').css($('.navbar').outerHeight() + 'px')
 
-    if (window.pageYOffset > 0){
-        menuArea.classList.add("cus-menu");
-    }else{
-        menuArea.classList.remove()
-    }
-})
+// detect scroll top or down
+if ($('.smart-scroll').length > 0) { // check if element exists
+    var last_scroll_top = 0;
+    $(window).on('scroll', function() {
+        scroll_top = $(this).scrollTop();
+        if(scroll_top < last_scroll_top) {
+            $('.smart-scroll').removeClass('scrolled-up').addClass('scrolled-down');
+        }
+        else {
+            $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
+        }
+        last_scroll_top = scroll_top;
+    });
+}

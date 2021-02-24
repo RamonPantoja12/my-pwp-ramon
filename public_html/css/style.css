@@ -11,6 +11,19 @@ html, body {
 /**********************/
 /* NAVBAR SECTION START*/
 /**********************/
+.smart-scroll{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
 
 .navbar-dark .navbar-brand {
     color: White;
@@ -83,6 +96,10 @@ h1 {
     margin-top: 3em;
     font-weight: 800;
     text-shadow: 10px 10px 0 #000;
+}
+
+.animate__bounce {
+    animation-iteration-count: infinite;
 }
 
 h2 {
