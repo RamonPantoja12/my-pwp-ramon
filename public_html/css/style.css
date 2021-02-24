@@ -57,11 +57,10 @@ html, body {
     background-image: linear-gradient(to right, rgba(0, 0,0, 0), rgba(0, 0,0, 0)), url("../documentation/Milestone-03/coding.jpg");
     padding-bottom: 30em;
     position: relative;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #464646;
 
 }
 
@@ -86,7 +85,7 @@ h1 {
     text-shadow: 10px 10px 0 #000;
 }
 
-h3 {
+h2 {
     color: white;
     font-size: 50px;
     font-family: 'Secular One', sans-serif;
@@ -126,13 +125,6 @@ hr.two {
     color: black;
 }
 
-h2 {
-    color: black;
-    font-weight: bold;
-    font-size: 40px;
-    font-family: 'Secular One', sans-serif;
-}
-
 #about {
     position: relative;
     margin-bottom: 8em;
@@ -150,6 +142,14 @@ h2 {
 /**********************/
 /* PORTFOLIO SECTION START*/
 /**********************/
+.card-img-top {
+    border: 5px solid #78ECC5;
+}
+.card {
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
 hr.four{
     border-radius: 10px;
     border-top: 2px solid;
@@ -173,18 +173,31 @@ hr.four{
     background-size: cover;
     background-color: #464646;
 }
+
+h3 {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
 #cards {
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.card {
+.card-img-top {
     transition: transform 250ms;
     display: inline-block;
     margin-top: 30px;
 }
 
-.card:hover {
+.card-img-top:hover {
     transform: translateY(-10px);
 }
 
